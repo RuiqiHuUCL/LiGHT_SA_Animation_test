@@ -11,10 +11,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Set the folder containing KM plots
-image_dir = "/both_eye"
-# image_dir = '/Users/richied/OneDrive - University College London/Desktop/LiGHT_SA/Manuscript/All_combinations_KM'
-
-bv_image_dir = "/BV"
+image_dir = "./both_eye"
+bv_image_dir = "./BV"
 
 if not os.path.exists(image_dir):
     st.error(f"Image directory not found: {image_dir}")
