@@ -84,7 +84,7 @@ with col1:
     show_image(col1, slt_files, f"SLT: {high_label} vs {low_label}")
 
 with col2:
-    show_image(col2, med_files, f"Medication: {high_label} vs {low_label}")
+    show_image(col2, med_files, f"PGAs: {high_label} vs {low_label}")
 
 st.markdown("---")
 st.subheader("PRS recommendation")
